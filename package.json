@@ -35,7 +35,8 @@
     "eject": "react-scripts eject",
     "lint": "npx eslint .",
     "pretty": "npx prettier --write '**/*.{js,jsx,json,css,scss}'",
-    "precommit": "lint-staged && npm run lint && npm run test:precommit"
+    "precommit": "lint-staged && npm run lint && npm run test:precommit",
+    "serve": "npx serve --clipless --port 5000 build"
   },
   "devDependencies": {
     "cross-env": "^5.1.5",
@@ -45,7 +46,8 @@
     "eslint-plugin-prettier": "^2.6.0",
     "husky": "^0.14.3",
     "lint-staged": "^7.1.2",
-    "prettier": "1.12.1"
+    "prettier": "1.12.1",
+    "serve": "^6.5.8"
   },
   "lint-staged": {
     "**/*.{js,jsx,json,css,scss}": [

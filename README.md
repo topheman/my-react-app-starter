@@ -1,5 +1,4 @@
-my-react-app-starter
-====================
+# my-react-app-starter
 
 create-react-app is a great toolkit. It removes a lot of boilerplate to manage. Though, a few features are not shipped by default because each developer has different needs.
 
@@ -125,3 +124,17 @@ npm run generate-changelog -- v1.1.0 v1.2.0
 ```
 
 Ready to be pasted to the github releases part.
+
+## Continuous Integration (CI)
+
+This part is optional. A [.travis.yml](.travis.yml) file is ready to use.
+
+Each `git push` triggers a test suite on [travis](https://travis-ci.org/topheman/my-react-app-starter). The following will be ran:
+
+* linting
+* unit tests
+
+One of the following npm task will take care of the testing according of the commit:
+
+* For PRs: `npm run test:travis:pr` Travis CI doesn't share env vars on PR builds (this is so that your build would not fail if you were using those vars)
+* For other types of commits: `npm run test:travis`

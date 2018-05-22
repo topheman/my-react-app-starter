@@ -32,6 +32,8 @@
     "test:unit": "cross-env CI=true npm run test:unit:watch",
     "test:unit:watch": "react-scripts --require ./bin/expand-metadatas.js test --env=jsdom",
     "test:precommit": "npm test",
+    "test:travis": "npm test",
+    "test:travis:pr": "echo 'Travis PRs do not have access to env vars, run your tests according to that' && npm test",
     "eject": "react-scripts eject",
     "lint": "npx eslint .",
     "generate-changelog": "./bin/generate-changelog.js",

@@ -1,6 +1,6 @@
 # my-react-app-starter
 
-create-react-app is a great toolkit. It removes a lot of boilerplate to manage. Though, a few features are not shipped by default because each developer has different needs.
+[create-react-app](https://github.com/facebook/create-react-app) is a great toolkit. It removes a lot of boilerplate to manage. Though, a few features are not shipped by default because each developer has different needs.
 
 If you tend to use the same kind of configuration / devDependencies accross all of your create-react-app based projects, there isn't a perfect solution. This project is an attempt to fix this problem and share it with you.
 
@@ -8,11 +8,11 @@ If you tend to use the same kind of configuration / devDependencies accross all 
 
 I added the specific configuration / devDependencies I tend to use on my projects, such as:
 
-* eslint with advanced rules such as config-airbnb + prettier with precommit hook
-* local test server
-* add metadatas in `index.html`
-* `generate-changelog` npm run task
-* deploy to github-pages npm run task
+* [9c0fa1b](https://github.com/topheman/my-react-app-starter/commit/9c0fa1b881decde46c11957b1e5cab3aeccc7d1c) eslint with advanced rules such as config-airbnb + prettier with precommit hook
+* [b2a4026](https://github.com/topheman/my-react-app-starter/commit/b2a4026cd68704fccce7c294cee6067e5d098738) local test server
+* [74d81b2](https://github.com/topheman/my-react-app-starter/commit/74d81b24456ec2d6d5ff786b64fc0bfbfe66b195) setup build metadatas in `index.html`
+* [62fbc3a](https://github.com/topheman/my-react-app-starter/commit/62fbc3aababe8a91a9d380d4e8c8fa37ab3ce6fe) `generate-changelog` npm run task
+* [f69bb96](https://github.com/topheman/my-react-app-starter/commit/f69bb969bb13c1e39444dbafca5306e4c6ed252a) setup default `.travis.yml`
 
 Each feature added can be identified by its commit, if you want to repeat only one of the steps on your own project.
 
@@ -21,7 +21,7 @@ This configuration has been inspired by [topheman/npm-registry-browser](https://
 **This remains an un-ejected create-react-app project, which means that you can:**
 
 * update `react-scripts`
-* choose to remove some of the features I added
+* customize or remove any of the features added
 
 The [original CRA guidelines are still available here](README.cra.md)
 
@@ -93,7 +93,7 @@ npm run lint
 
 ## Prettier
 
-Prettier is a great tool to enforces a consistent style accross your code base (usefull when working in teams).
+Prettier is a great tool that enforces a consistent style accross your code base (usefull when working in teams).
 
 [Here is how to integrate it with your editor](https://prettier.io/docs/en/editors.html).
 
@@ -105,16 +105,6 @@ The following command will let you format your code base. This task is ran at pr
 npm run pretty
 ```
 
-## Deploy
-
-The demo is hosted on [github-pages](https://topheman.github.io/my-react-app-starter). A simple way to publish your app is to use the [gh-pages](https://www.npmjs.com/package/gh-pages) package that will create a `gh-pages` orphan branch on which it will commit and push.
-
-The following script will build then publish your app on your github pages:
-
-```shell
-npm run deploy
-```
-
 ## Commit guidelines
 
 To have uniform commit messages, I follow the [AngularJS git commit guidelines](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md#-git-commit-guidelines), please take a look at it. I helps generate changelogs:
@@ -122,8 +112,6 @@ To have uniform commit messages, I follow the [AngularJS git commit guidelines](
 ```shell
 npm run generate-changelog -- v1.1.0 v1.2.0
 ```
-
-Ready to be pasted to the github releases part.
 
 ## Continuous Integration (CI)
 

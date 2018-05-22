@@ -2,14 +2,13 @@
   "name": "my-react-app-starter",
   "version": "0.1.0",
   "private": true,
-  "description": "create-react-app based project with a few pre-configured / installed featured such as eslint or prettier",
+  "description": "create-react-app based project with a few pre-configured / installed features such as eslint or prettier",
   "keywords": [
     "React",
     "create-react-app",
     "eslint",
     "config-airbnb",
-    "prettier",
-    "deploy to gh-pages"
+    "prettier"
   ],
   "author": "Christophe Rosset <tophe@topheman.com> (http://labs.topheman.com/)",
   "repository": {

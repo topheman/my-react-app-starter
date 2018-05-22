@@ -2,6 +2,24 @@
   "name": "my-react-app-starter",
   "version": "0.1.0",
   "private": true,
+  "description": "create-react-app based project with a few pre-configured / installed featured such as eslint or prettier",
+  "keywords": [
+    "React",
+    "create-react-app",
+    "eslint",
+    "config-airbnb",
+    "prettier",
+    "deploy to gh-pages"
+  ],
+  "author": "Christophe Rosset <tophe@topheman.com> (http://labs.topheman.com/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/topheman/my-react-app-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/topheman/my-react-app-starter/issues"
+  },
+  "license": "MIT",
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2",

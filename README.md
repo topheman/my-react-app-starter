@@ -1,5 +1,7 @@
 # my-react-app-starter
 
+[![Build Status](https://travis-ci.org/topheman/my-react-app-starter.svg?branch=master)](https://travis-ci.org/topheman/my-react-app-starter)
+
 [create-react-app](https://github.com/facebook/create-react-app) is a great toolkit. It removes a lot of boilerplate to manage. Though, a few features are not shipped by default because each developer has different needs.
 
 If you tend to use the same kind of configuration / devDependencies accross all of your create-react-app based projects, there isn't a perfect solution. This project is an attempt to fix this problem and share it with you.

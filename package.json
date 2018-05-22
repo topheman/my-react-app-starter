@@ -26,11 +26,11 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --require ./bin/expand-metadatas.js start",
+    "build": "react-scripts --require ./bin/expand-metadatas.js build",
     "test": "npm run test:unit",
     "test:unit": "cross-env CI=true npm run test:unit:watch",
-    "test:unit:watch": "react-scripts test --env=jsdom",
+    "test:unit:watch": "react-scripts --require ./bin/expand-metadatas.js test --env=jsdom",
     "test:precommit": "npm test",
     "eject": "react-scripts eject",
     "lint": "npx eslint .",
@@ -44,8 +44,10 @@
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-cypress": "^2.0.1",
     "eslint-plugin-prettier": "^2.6.0",
+    "git-rev-sync": "^1.12.0",
     "husky": "^0.14.3",
     "lint-staged": "^7.1.2",
+    "moment": "^2.22.1",
     "prettier": "1.12.1",
     "serve": "^6.5.8"
   },

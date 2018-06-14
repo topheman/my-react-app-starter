@@ -16,6 +16,7 @@ I added the specific configuration / devDependencies I tend to use on my project
 * [74d81b2](https://github.com/topheman/my-react-app-starter/commit/74d81b24456ec2d6d5ff786b64fc0bfbfe66b195) setup build metadatas in `index.html`
 * [62fbc3a](https://github.com/topheman/my-react-app-starter/commit/62fbc3aababe8a91a9d380d4e8c8fa37ab3ce6fe) `generate-changelog` npm run task
 * [f69bb96](https://github.com/topheman/my-react-app-starter/commit/f69bb969bb13c1e39444dbafca5306e4c6ed252a) setup default `.travis.yml`
+* [0f2c3d6](https://github.com/topheman/my-react-app-starter/commit/0f2c3d6d0ddf5efe85925f996f9413dfd69cfa4f) add `deploy` task
 
 Each feature added can be identified by its commit, if you want to repeat only one of the steps on your own project.
 

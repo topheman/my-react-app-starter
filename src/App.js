@@ -47,6 +47,9 @@ class App extends Component {
             fork me on github
           </a>
         </p>
+        <footer className="App-footer">
+          v{process.env.REACT_APP_METADATAS_VERSION}
+        </footer>
       </div>
     );
   }

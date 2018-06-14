@@ -35,6 +35,10 @@
   color: black;
 }
 
+.App-footer {
+  margin-top: 30px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -27,6 +27,8 @@
   "scripts": {
     "start": "react-scripts --require ./bin/expand-metadatas.js start",
     "build": "react-scripts --require ./bin/expand-metadatas.js build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "npm run test:unit",
     "test:unit": "cross-env CI=true npm run test:unit:watch",
     "test:unit:watch": "react-scripts --require ./bin/expand-metadatas.js test --env=jsdom",
@@ -48,6 +50,7 @@
     "eslint-plugin-cypress": "^2.0.1",
     "eslint-plugin-prettier": "^2.6.0",
     "generate-changelog": "^1.7.1",
+    "gh-pages": "^1.2.0",
     "git-rev-sync": "^1.12.0",
     "github-url-from-git": "^1.5.0",
     "husky": "^0.14.3",
@@ -61,5 +64,6 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "homepage": "."
 }

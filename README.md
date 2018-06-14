@@ -1,6 +1,7 @@
 # my-react-app-starter
 
 [![Build Status](https://travis-ci.org/topheman/my-react-app-starter.svg?branch=master)](https://travis-ci.org/topheman/my-react-app-starter)
+[![Demo](https://img.shields.io/badge/demo-online-blue.svg)](https://topheman.github.io/my-react-app-starter/)
 
 [create-react-app](https://github.com/facebook/create-react-app) is a great toolkit. It removes a lot of boilerplate to manage. Though, a few features are not shipped by default because each developer has different needs.
 
@@ -128,3 +129,15 @@ One of the following npm task will take care of the testing according of the com
 
 * For PRs: `npm run test:travis:pr` Travis CI doesn't share env vars on PR builds (this is so that your build would not fail if you were using those vars)
 * For other types of commits: `npm run test:travis`
+
+## Deploy
+
+You can use github-pages to host your project. All you need to do is to push your build on a `gh-pages` orphan branch, your project will be accessible at `https://<owner>.github.io/<repo>`.
+
+This task can be automated using the [gh-pages](https://www.npmjs.com/package/gh-pages) package, as specified in the [CRA Readme](README.cra.md#github-pages). This task is already setup. All you have to do is:
+
+```shell
+npm run deploy
+```
+
+The demo of this website is hosted at [topheman.github.io/my-react-app-starter](https://topheman.github.io/my-react-app-starter/).

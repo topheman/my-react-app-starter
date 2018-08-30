@@ -57,7 +57,7 @@
     "lint-staged": "^7.1.2",
     "moment": "^2.22.1",
     "prettier": "^1.14.2",
-    "serve": "^6.5.8"
+    "serve": "^10.0.0"
   },
   "lint-staged": {
     "**/*.{js,jsx,json,css,scss}": [

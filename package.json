@@ -46,9 +46,9 @@
     "commander": "^2.15.1",
     "cross-env": "^5.1.5",
     "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-cypress": "^2.0.1",
-    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-prettier": "^2.6.2",
     "generate-changelog": "^1.7.1",
     "gh-pages": "^1.2.0",
     "git-rev-sync": "^1.12.0",
@@ -56,7 +56,7 @@
     "husky": "^0.14.3",
     "lint-staged": "^7.1.2",
     "moment": "^2.22.1",
-    "prettier": "1.12.1",
+    "prettier": "^1.14.2",
     "serve": "^6.5.8"
   },
   "lint-staged": {
